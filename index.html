@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Silva</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="box">
+        <div class="tittle">
+            <a href=""><h1>Jonathan Silva</h1></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="button"><a href="#about">About</a></li>
+                <li class="button"><a href="#works">Works</a></li>
+                <li class="button"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="about"> <!-- SECTION SOBRE Mí -->
+        <div class="about left">
+            <img class="about--image image" src="./img/jonathanimg.jgp" alt="Imagen de Jonathan">
+        </div>
+        <div class="about right box">
+            <h1>About me</h1> 
+            <h2>Jonathan Silva Zayas</h2>
+            <p>Hello World, From Argentina! I greet you; This is my portfolio. I am a junior developer. I started programming at my school while taking online courses to training me as a developer. Participate in programming olympiads and school projects organized by the school. I am still learning, and I am also studying Informatics Engineering at <a class="unlam" href="https://www.unlam.edu.ar/index.php?seccion=6&idArticulo=779" target="_blank">UNLAM</a> (Argentina). You can find my projects, both those that were launched, personal or not, as well as my social networks to contact me. I am ready for any project and challenge. See you soon!</p>
+        </div>
+    </section>
+
+    <section id="works" class="section works" tema-lp="darkbox">
+        <h1>My Works</h1>
+        <div class="box">
+            <div class="container">
+                <div class="card">
+                    <h2>Project 1</h2>
+                    <p>Description of project 1.</p>
+                    <a href="link_to_project" target="_blank">View Project</a>
+                </div>
+                <div class="card">
+                    <h2>Project 2</h2>
+                    <p>Description of project 2.</p>
+                    <a href="link_to_project" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section-form contact form" tema-lp="dark">
+        <div class="box">
+            <form action="https://formspree.io/f/xanwwrpy" method="post">
+                <h1>Contact</h1>
+                <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+                <button type="submit">Currículum</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer tema-lp="dark">
+        <div class="socials">
+            <a class="button" href="" target="_blank">LinkedIn</a>
+            <a class="button" href="" target="_blank">GitHub</a>
+            <a class="button" href="" target="_blank">Email</a>
+            <a class="button" href="" target="_blank">Instagram</a>
+        </div>
+        <section class="copyright socials " tema-lp="darx">
+            <h2>developer portfolio <br>
+                2024 © by Jonathan Silva Zayas</h2>
+        </section>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
